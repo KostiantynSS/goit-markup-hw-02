@@ -1,4 +1,4 @@
-/* #434455 */
+/* #2e2f42 */
 :root {
   --main-background-color: #ffffff;
   --main-color: #2e2f42;
@@ -141,7 +141,9 @@ body {
   text-transform: capitalize;
 }
 /* SECTION-4 */
-.team-member {background-color: #ffffff;}
+.team-member {
+  background-color: #ffffff;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -162,6 +164,7 @@ body {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .team-list-text {
   font-size: 16px;
@@ -186,10 +189,11 @@ body {
 }
 
 .nav-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: var(--btn-nohover-text-color);
   background-color: var(--btn-nohover-background-color);
