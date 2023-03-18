@@ -1,3 +1,4 @@
+/* #434455 */
 :root {
   --main-background-color: #ffffff;
   --main-color: #2e2f42;
@@ -17,6 +18,7 @@
   --logo-main-color: #4d5ae5;
   --logo-footer-color: #f4f4fd;
   --logo-header-color: #2e2f42;
+  --second-text-color: #434455;
 }
 /* BODY */
 body {
@@ -63,7 +65,9 @@ body {
 .header-item:focus {
   color: var(--header-action-color);
 }
-.address {font-style: normal;}
+.address {
+  font-style: normal;
+}
 
 .address-item {
   font-size: 16px;
@@ -80,6 +84,7 @@ body {
 }
 
 /* MAIN */
+/* SECTION-1 */
 .hero {
   background-color: var(--main-color);
 }
@@ -99,7 +104,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  cursor: pointer;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--btn-text-color);
@@ -108,10 +113,7 @@ body {
 .hero-btn:focus {
   background-color: var(--background-btn-hover-color);
 }
-
-.adnantages-list {
-  list-style: none;
-}
+/* SECTION-2 */
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -120,14 +122,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.adnantages-text {
+.advantages-text {
   font-size: 16px;
   line-height: 1.5;
 
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--second-text-color);
 }
-
+/* SECTION-3 */
 .showcase-text {
   color: var(--main-color);
   font-weight: 700;
@@ -138,10 +140,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.showcase-list {
-  list-style: none;
-}
-
+/* SECTION-4 */
+.team-member {background-color: #ffffff;}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,9 +154,6 @@ body {
 }
 .team-section {
   background-color: var(--background-color);
-}
-.team-list {
-  list-style: none;
 }
 
 .team-list-title {
