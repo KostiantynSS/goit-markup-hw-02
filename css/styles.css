@@ -2,7 +2,9 @@
   --main-color: #2e2f42;
   --contact-color: #434455;
   --h1-color: #ffffff;
+  --header-action-color: #404BBF;
   --background-btn-color: #4d5ae5;
+  --background-btn-hover-color: #404BBF;
   --btn-text-color: #ffffff;
   --btn-nohover-text-color: #4d5ae5;
   --btn-hover-text-color: #ffffff;
@@ -18,12 +20,11 @@
 /* BODY */
 .body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  /* LOGO */
 }
+  /* LOGO */
 .logo-start {
   font-family: "Raleway";
-  font-style: normal;
+  
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -33,7 +34,7 @@
 }
 .logo-header {
   font-family: "Raleway";
-  font-style: normal;
+  
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -44,7 +45,7 @@
 }
 .logo-footer {
   font-family: "Raleway";
-  font-style: normal;
+  
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -76,13 +77,14 @@
 
   color: var(--main-color);
 }
+.header-item:active {color: var(--header-action-color);}
 
 
 .address-list {
   list-style: none;
 }
 .address-item {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.5;
 
@@ -90,6 +92,8 @@
   color: var(--contact-color);
   text-decoration: none;
 }
+.address-item:active, .address-item:hover, .address-item:focus {color: var(--header-action-color);}
+
 
 /* MAIN */
 .hero {
@@ -116,6 +120,7 @@
   letter-spacing: 0.04em;
   color: var(--btn-text-color);
 }
+.hero-btn:hover, .hero-btn:focus {background-color: var(--background-btn-hover-color);}
 
 .adnantages-list {
   list-style: none;
@@ -129,7 +134,7 @@
   color: var(--main-color);
 }
 .adnantages-text {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.5;
 
@@ -176,7 +181,7 @@
   letter-spacing: 0.02em;
 }
 .team-list-text {
-  font-weight: 400;
+ 
   font-size: 16px;
   line-height: 1.5;
 
@@ -187,7 +192,7 @@
   background-color: var(--main-color);
 }
 .footer-text {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.5;
 
@@ -226,8 +231,7 @@
   color: var(--main-color);
 }
 .presentation-text {
-  font-style: normal;
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.5;
 
